@@ -10,6 +10,7 @@ body {
 }
 
 nav {
+    display: block;
     background-color: lightgrey;
     width: 100vw;
     position: fixed;
@@ -33,12 +34,12 @@ li.brand {
 .about {
     padding: 5em 5em 2em 2em;
     display: block;
-    background-color: cornsilk;
+    background-color: dimgrey;
     height: 100vh;
 }
 
 .shop {
     display: block;
-    background-color: aliceblue;
+    background-color: peru;
     height: 100vh;
 }
