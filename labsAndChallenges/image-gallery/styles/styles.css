@@ -1,0 +1,91 @@
+*,
+html {
+    margin: 0px;
+    padding: 0px;
+}
+
+header {
+    display: block;
+    font-size: xx-large;
+    margin: 1em 5em 1em 5em;
+    text-align: center;
+    border: 1px solid black;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    background-color: lightgrey;
+}
+
+nav {
+    display: block;
+    border: 1px solid black;
+    margin: 2em 5em 1em 5em;
+    font-size: xx-large;
+    text-align: center;
+    background-color: lightgrey;
+}
+
+a {
+    display: inline-block;
+    border: 1px solid black;
+    text-decoration: none;
+    margin-right: 2em;
+    margin-left: 2em;
+    padding-left: 2em;
+    padding-right: 2em;
+    color: white;
+    background-color: black;
+}
+
+div {
+    margin: 1em 5em 1em 5em;
+}
+
+.gallery {
+    display: grid;
+    grid-template: repeat(4, 25%) / repeat(16, 6.25%);
+    column-gap: 1em;
+    row-gap: 1em;
+}
+
+#hero {
+    grid-column: 2 / span 14;
+}
+
+#imgOne {
+    grid-column: 3 / 6;
+}
+
+#imgTwo {
+    grid-column: 7 / 10;
+}
+
+#imgThree {
+    grid-column: 11 / 13;
+}
+
+#imgFour {
+    grid-column: 2 / 6;
+    grid-row-start: 3;
+}
+
+#imgFive {
+    grid-row-start: 3;
+    grid-column: 6 / 9
+}
+
+#imgSix {
+    grid-row-start: 3;
+    grid-column: 10 / 12;
+}
+
+
+footer {
+    display: block;
+    font-size: large;
+    margin: 1em 5em 1em 1em;
+    text-align: center;
+    border: 1px solid black;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    background-color: lightgrey;
+}
