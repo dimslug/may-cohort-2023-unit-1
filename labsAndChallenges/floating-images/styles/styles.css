@@ -1,0 +1,42 @@
+*,
+
+html {
+    margin: 0px;
+    padding: 0px;
+}
+
+header {
+    display: block;
+    font-size: 32px;
+    margin: 2em 5em 2em 5em;
+    text-align: center;
+    border: 1px solid black;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    background-color: lightgrey;
+}
+
+div {
+    display: block;
+    border: 1px solid black;
+    background-color: lightgrey;
+    margin: 3em 10em 3em 10em;
+    padding: 1em;
+}
+
+img.rightFloat {
+    float: right;
+    margin-left: 1em;
+    margin-bottom: .5em;
+    overflow: auto;
+}
+
+img.leftFloat {
+    float: left;
+    margin-right: 1em;
+    overflow: auto;
+}
+
+section {
+    text-align: justify;
+}
