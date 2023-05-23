@@ -48,19 +48,19 @@ div {
 }
 
 #hero {
-    grid-column: 2 / span 14;
+    grid-column: 3 / span 14;
 }
 
 #imgOne {
-    grid-column: 3 / 6;
+    grid-column: 2 / 4;
 }
 
 #imgTwo {
-    grid-column: 7 / 10;
+    grid-column: 6 / 9;
 }
 
 #imgThree {
-    grid-column: 11 / 13;
+    grid-column: 10 / 12;
 }
 
 #imgFour {
