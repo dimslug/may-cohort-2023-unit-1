@@ -1,0 +1,153 @@
+*,
+
+html {
+    margin: 0px;
+    padding: 0px;
+    min-height: 0px;
+    min-width: 0px;
+}
+
+header {
+    text-align: center;
+    border: 1px solid black;
+    background-color: lightgrey;
+    font-size: xx-large;
+    width: 75%;
+    margin: 1em 2.5em .5em 2.5em;
+    padding: 1em 2.5em 1em 2.5em;
+    align-self: center;
+}
+
+#flexheader {
+    border: 1px solid black;
+    background-color: lightgrey;
+    font-size: large;
+    margin: 1em 2em 1em 2em;
+    padding: 1em 1em 1em 1em;
+}
+
+nav {
+    border: 1px solid black;
+    background-color: lightgrey;
+    text-align: center;
+    margin: .5em 2.5em 1em 2.5em;
+    padding: 1em 2em 1em 2em;
+    width: 75%;
+    align-self: center;
+}
+
+nav>a {
+    border: 1px solid black;
+    background-color: slategrey;
+    margin: 1em 1em 1em 1em;
+    padding: .25em 2em .5em 2em;
+    text-decoration: none;
+    font-size: x-large;
+}
+
+a {
+    border: 1px solid black;
+    background-color: lightgrey;
+    text-decoration: none;
+    text-align: center;
+    width: 18.5%;
+}
+
+h1 {
+    text-align: center;
+    border: 1px solid black;
+    width: 25%;
+    background-color: lightgrey;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+
+}
+
+.mainFlex {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    margin: 1em;
+    border: 2px solid black;
+    justify-content: center;
+    align-items: center;
+}
+
+#flex-container {
+    display: flex;
+    border: 1px solid black;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: baseline;
+    align-content: center;
+    height: 90vh;
+    width: 90vw;
+    gap: 1vh 10vh;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+section {
+    min-height: 0px;
+    min-width: 0px;
+    width: 25%;
+    text-align: center;
+}
+
+footer {
+    min-width: 0px;
+    border: 1px solid black;
+    width: 25%;
+    align-self: center;
+    text-align: center;
+    background-color: lightgrey;
+    padding-top: .5rem;
+    padding-bottom: .5rem;
+}
+
+@media (max-width: 420px) {
+
+    #flex-container {
+        gap: 1vh 1vh;
+        height: auto;
+        align-items: center;
+    }
+
+    header {
+        font-size: large;
+        viewport-fit: auto;
+    }
+
+    nav {
+        viewport-fit: auto;
+        margin: 0 .5rem;
+        padding: 0 .5rem;
+        width: 95%;
+    }
+
+    nav>a {
+        font-size: large;
+        width: 10vw;
+        margin: 0 0rem;
+        padding: 0 .5rem;
+    }
+
+    h1 {
+        font-size: large;
+        viewport-fit: auto;
+        width: 100%;
+    }
+
+    section {
+        width: 100%;
+    }
+
+    footer {
+        width: 100%;
+    }
+
+    a {
+        width: 50%;
+    }
+}
